@@ -1,10 +1,40 @@
 <html>
     <style type="text/css">
-        body{background-color: antiquewhite;}
-        form{margin: 150px;}
-        h1{color: coral;}
+        body{background-image: url('http://s30.postimg.org/8zuxs037h/de662f739b575ff2c0ab5ddb344c3f9e.jpg');
+        background-repeat: no-repeat;
+            background-size: cover;
         
-    
+            
+        }
+        form{margin: 100px;
+        background-color: white;
+        text-align: center;
+            display: inline-block;
+            padding: 10px;
+            border: white solid 10px;
+            border-radius: 20px;
+            font-family: tahoma;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        h1{color: white;
+        font-family: sans-serif;
+            
+        }
+        .log{
+           background-color: fuchsia;
+            width: 70px;
+            height: 30px;
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .log:hover{
+            background-color: white;
+            color: fuchsia;
+        }
+        
         
     </style>
 <script language="javascript">
@@ -22,13 +52,14 @@ alert("Invalid Password")
 
 </script>
     <body>
-        </br></br>
+        </br>
 <center>
-    <h1><em>welcome to the world of programmming<em></em></h1>
+    <h1><em>welcome to the world of </em></h1>
+    <h1><em>programmming</em></h1>
 <form>
-    <p>user name:<input type="text" name="username"/></p>
-    <p>password:<input type="password" name="password"/></p>
-    <p><input type="button"value="login"onclick=" login(this.form)"/></p>
+    <p>user name  <input type="text" name="username"/></p>
+    <p>password  <input type="password" name="password"/></p>
+    <p><input type="button"value="login"onclick=" login(this.form)" class="log"/></p>
     </form>
 </center>
     </body>
