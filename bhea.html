@@ -1,0 +1,116 @@
+<html>
+    <head>
+        
+            <style>
+               body{
+                    background-image:url(11.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    }
+                
+                .s{
+                    width:300px;
+                    height:40px;
+                }
+                table{
+                    text-align: center; 
+                    padding: 50pt;
+                }
+                .co{
+                    color:blue;
+                    text-align: left;
+                    
+                
+                }
+                .co2{
+                    color: blue;
+                }
+                
+               
+                .Eimg{
+                    width:70px;
+                    height: 50px;
+                }
+                .log{ background-color: dodgerblue;
+            width: 70px;
+            height: 30px;
+            border-radius: 10px;
+            color: blue;
+           
+            margin-top: 20px;}
+                .log:hover{color:black;background-color: white;}
+                table{border: 3px blue solid;align-items: center;}
+                .first{color: blue;}
+                
+            </style>
+        <script type="text/javascript">
+        function first(){
+            if(f.user.value=="fmt"){
+                if(f.pass.value=="123"){
+                    
+            window.open("user.html");}
+                else{                       
+                    alert("invalid password or user name");}
+        }}
+            
+        
+        
+        </script>
+    </head>
+    
+    <body>
+        <h2 class="co"><em>Creat New account</em> </h2>
+      <table align="center" >
+        <form name="f">
+            <tr>
+                <td>
+                   <span class="co">Name </span> :    <input class="s" type="text" placeholder="Enter your name" name="user">           
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <span class="co">E-mail</span> :<input class="s" type="email" placeholder="Enter your e-mail address"name="email">
+                </td>  
+            </tr>
+            <tr>
+               <td>
+                <span class="co">Password </span> :<input class="s" type="password" placeholder="Enter your passward" name="pass">
+               </td>  
+            </tr>
+            <tr>
+                <td>
+                       <span class="co">Gender :</span> <br>
+                <input type ="radio" name="G">Male
+                <input type ="radio" name="G">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+               <span class="co">Select your country</span> :
+                    <select>
+                        <option> Eygpt </option>
+                        <option> Italy </option>
+                        <option> Germany </option>
+                        <option> spain </option>
+                        <option> USA   </option>
+                        
+                    </select>
+                </td>
+            </tr>
+            
+                
+            <br><br>
+            <tr>
+               <td>
+             <input class="log" type="submit" value="Creat" onclick="first()">
+               </td>  
+            </tr>
+            </form>
+          </table><br>
+       
+           <p align="center"> <span class="co">   you can sign up with </span><br>
+         <a href="https://www.facebook.com/?ref=logo" target="_blanck"><img class="Eimg" src="fb1.png" alt="facebook" title="facebook"></a>
+        <a href="https://twitter.com/login" target="_blanck"><img class="Eimg" src="tw2.png" alt="Twitter" title="Twitter"></a>
+        </p>
+    </body>
+</html>
